@@ -1,0 +1,12 @@
+period P = 700679
+precision = 231700 bits
+residual log10|z_P(c)| = -34802.37
+next Newton step log10|z_P/z_P'| = -69512.56  (= -92.09 relative to |size|)
+ball period check (radius 1e-3 |size|): first k with 0 in ball image = Some(700679)
+closest approach for k < P: k = 700676, log10(|z_k| / ball radius_k) = 34712.85
+size (pass A, 53-bit accumulators): log10|size| = -69420.470287 arg = -0.162256 rad
+pass A time 1207s
+record minima of |z_k| (k<P): [(1494, -28.91), (2943, -44.1), (5845, -66.87), (11650, -101.14), (23245, -152.53), (46427, -226.2), (92541, -338.13)]
+size at 289625 bits with 256-bit accumulators: log10|size| = -69420.470287254 arg = -0.162255941 rad (1667s)
+  difference vs pass A: d(log10|size|) = 0.00e0, d(arg) = 3.38e-13
+verification total 2874s
