@@ -10,10 +10,6 @@
 | Final half-width | exactly 1e-69420 |
 | Nucleus | `locations/final_hw_1e-69420.txt`: 69,500 decimals per coordinate,`set MB_…` format |
 
-Only the half-width line carried `set ` in the sample you pasted. I prefixed all three lines with it, so strip it from the first two if your loader expects the pasted form.
-
-The same centre with half-width 16e-69420 (4 halvings up) and 65536e-69420 (16 halvings up) is in `locations/up4_…` and `locations/up16_…`.
-
 ## Verification (full report: `verification_raw.txt`)
 
 | Check | Result |
